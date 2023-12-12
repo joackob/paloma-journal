@@ -17,15 +17,15 @@ export default function MyApp({ Component, pageProps }: AppProps) {
         />
         <meta name="description" content="Description" />
         <meta name="keywords" content="Keywords" />
-        <title>Next.js PWA Example</title>
+        <title>Paloma Studio</title>
 
-        <link rel="manifest" href="/manifest.json" />
+        <link rel="site.webmanifest" href="/site.webmanifest" />
         <meta name="theme-color" content="#3f50b5" />
         {/* favicon */}
         <link
           rel="apple-touch-icon"
-          sizes="180x180"
-          href="/apple-touch-icon.png"
+          sizes="192x192"
+          href="/android-chrome-192x192.png"
         />
         <link
           rel="icon"
@@ -39,7 +39,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
           sizes="16x16"
           href="/favicon-16x16.png"
         />
-        <link rel="manifest" href="/site.webmanifest"></link>
+        <link rel="site.webmanifest" href="/site.webmanifest"></link>
       </Head>
       <Theme>
         <Layout>

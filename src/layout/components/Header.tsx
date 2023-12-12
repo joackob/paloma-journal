@@ -11,14 +11,16 @@ import NavMobile from "./NavMobile";
 
 const linksLeft = [
   {
-    label: "Plantillas",
-    href: "/plantillas",
-    icon: <Web />,
+    label: "Sobre Nosotros",
+    href: "/Paloma Studio",
   },
   {
-    label: "Planes",
-    href: "/planes",
-    icon: <MonetizationOn />,
+    label: "Nuestros Servicios",
+    href: "/Servicios",
+  },
+  {
+    label: "Turnos Reservados",
+    href: "/Mis turnos",
   },
 ];
 
