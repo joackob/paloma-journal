@@ -26,7 +26,7 @@ export default function Home() {
 
   return (
     <Container sx={{ marginBottom: "32px" }}>
-      <Stack spacing={4} alignItems="center">
+      <Stack spacing={4} alignItems="center" marginTop="30px">
         <Box
           sx={{
             width: 300,
@@ -37,6 +37,13 @@ export default function Home() {
           }}
         >
           <TextField
+            sx={{
+              width: 300,
+              maxWidth: "100%",
+              display: "flex",
+              alignItems: "center",
+              "& > :not(style)": { m: 1 },
+            }}
             fullWidth
             label="Escribir nombre completo"
             id="Nombre Completo"
@@ -50,7 +57,7 @@ export default function Home() {
             sx={{
               width: 150,
               maxWidth: "100%",
-              color: "#F2E5D5",
+              color: "#8C8C8D",
             }}
             labelId="demo-simple-select-label"
             id="demo-simple-select"
@@ -70,7 +77,7 @@ export default function Home() {
             sx={{
               width: 150,
               maxWidth: "100%",
-              color: "#F2E5D5",
+              color: "#8C8C8D",
             }}
             labelId="demo-simple-select-label"
             id="demo-simple-select"
